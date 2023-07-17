@@ -1,0 +1,77 @@
+<resources>
+    <!-- Layout -->
+    <string name="app_name">ImageGallery</string>
+    <string name="capture">Capture</string>
+    <string name="gallery">Gallery</string>
+    <string name="settings">Settings</string>
+    <string name="credits">Credits</string>
+    <string name="gallery_app_logo">Gallery App Logo</string>
+    <string name="image_details">Image Details</string>
+    <string name="share">Share</string>
+    <string name="delete_image">Delete Image</string>
+    <string name="move_to">Move to</string>
+    <string name="select_images">Select images</string>
+    <string name="image_selected">Image selected</string>
+    <string name="error_encountered_rotation">Error encountered during rotation, try reload.</string>
+    <!-- Gallery Menu -->
+    <string name="title_activity_gallery">GalleryActivity</string>
+    <string name="gallery_map">Gallery Map</string>
+    <!-- Album Menu -->
+    <string name="title_activity_album">AlbumActivity</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="delete_album">Delete Album</string>
+    <string name="delete_images">Delete Images</string>
+    <string name="move_images">Move Images</string>
+    <!-- ShowImage Menu -->
+    <string name="title_activity_show_image">ShowImageActivity</string>
+    <string name="rotate_left">Rotate Left</string>
+    <string name="rotate_right">Rotate Right</string>
+    <!-- Used Format -->
+    <string name="dateformat_pattern">yyyyMMdd_HHmmss</string>
+    <!-- Shared Preferences Strings-->
+    <string name="user_shared_pref">com.example.imagegallery.USER_PREFERENCES</string>
+    <string name="pref_default_album">Camera</string>
+    <string name="pref_capture_album">PREF_CAPTURE_ALBUM</string>
+    <string name="pref_dark_mode">PREF_DARK_MODE</string>
+    <string name="pref_photo_map_number">PREF_PHOTO_MAP_NUMBER</string>
+    <string name="pref_geo_tag">PREF_GEO_TAG</string>
+    <!-- Credits -->
+    <string name="app_attribution">App Developed by Nicholas Gazzo</string>
+    <string name="course_attribution">Unige MD Course 2020/2021</string>
+    <string name="logo_attribution">Logo Designed by rawpixel.com / Freepik</string>
+    <!-- Dialog -->
+    <string name="dialog_add_album">Insert album name</string>
+    <string name="dialog_delete_image">Delete this image?</string>
+    <string name="dialog_delete_album">Delete this album? All the images inside will be deleted.</string>
+    <string name="dialog_choose_album">Choose an album</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="close">Close</string>
+    <string name="delete">Delete</string>
+    <string name="album_already_exist">The album you are trying to create already exists.</string>
+    <string name="album_reserved_chars">Insert a valid album name, special characters are not allowed.</string>
+    <string name="album_cannot_be_empty">A new album cannot be empty.</string>
+    <string name="photo_request_perm_not_granted">Permissions needed to take a photo for the album.</string>
+    <string name="media_location_request_perm_not_granted">Permissions needed to build the photo map.</string>
+    <string name="write_external_perm_not_granted">Permissions needed to display and modify photos.</string>
+    <string name="read_external_perm_not_granted">Permissions needed to read albums and photos information.</string>
+    <string name="external_storage_not_available">The External Storage is not available. Please, insert an SD Card or disconnect the device from the computer.</string>
+    <string name="image_deleted">Image deleted.</string>
+    <string name="image_moved_to">Image moved to %1$s.</string>
+    <string name="album_deleted">Album deleted.</string>
+    <string name="images_already_in_album">This album already contains the selected images.</string>
+    <string name="please_wait_moment">Please wait this might take a moment.</string>
+    <string name="images_deleted">Images deleted.</string>
+    <string name="images_moved_to">Images moved to %1$s.</string>
+    <!-- Settings -->
+    <string name="default_camera_album">Default Camera Album</string>
+    <string name="no_default_album">No Default Album.</string>
+    <string name="no_album_to_choose">There is no album to choose.</string>
+    <string name="change">Change</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="always_dark_mode">Always Dark Mode?</string>
+    <string name="apply_changes">Apply Changes</string>
+    <string name="geotag">Geotag</string>
+    <string name="try_to_geotag_photos">Try to geotag photos?</string>
+    <string name="photo_map">Photo Map</string>
+</resources>

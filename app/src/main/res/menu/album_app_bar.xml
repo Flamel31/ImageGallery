@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_add_photo"
+        android:icon="@drawable/ic_baseline_add_a_photo_24"
+        android:title="@string/add_photo"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_delete_album"
+        android:icon="@drawable/ic_baseline_delete_24"
+        android:title="@string/delete_album"
+        app:showAsAction="ifRoom"/>
+</menu>

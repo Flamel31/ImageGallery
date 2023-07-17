@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/dialog_date_taken"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:gravity="center|start"
+        android:textSize="18sp"
+        app:drawableStartCompat="@android:drawable/ic_menu_my_calendar" />
+
+    <TextView
+        android:id="@+id/dialog_filename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:gravity="center|start"
+        android:textSize="18sp"
+        app:drawableStartCompat="@android:drawable/ic_menu_gallery" />
+
+    <TextView
+        android:id="@+id/dialog_path"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:gravity="center|start"
+        android:textSize="18sp"
+        app:drawableStartCompat="@android:drawable/ic_menu_info_details" />
+
+    <TextView
+        android:id="@+id/dialog_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:gravity="center|start"
+        android:textSize="18sp"
+        app:drawableStartCompat="@android:drawable/ic_menu_edit" />
+
+    <TextView
+        android:id="@+id/dialog_dimensions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:gravity="center|start"
+        android:textSize="18sp"
+        app:drawableStartCompat="@android:drawable/ic_menu_crop" />
+</LinearLayout>

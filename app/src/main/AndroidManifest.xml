@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+    <!-- Osmdroid map -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"  />
+    <!-- Store Photo -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!-- Geotag -->
+    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PhotoCapture"
+            android:parentActivityName=".MainActivity"
+            android:configChanges="orientation|screenSize"/>
+        <activity
+            android:name=".SettingsActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".CreditsActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".GalleryActivity"
+            android:label="@string/title_activity_gallery"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".PhotoMapActivity"
+            android:parentActivityName=".GalleryActivity" />
+        <activity
+            android:name=".AlbumActivity"
+            android:label="@string/title_activity_album"
+            android:parentActivityName=".GalleryActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ShowImageActivity"
+            android:label="@string/title_activity_show_image"
+            android:parentActivityName=".GalleryActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_delete_images"
+        android:icon="@drawable/ic_baseline_delete_24"
+        android:title="@string/delete_images" />
+    <item
+        android:id="@+id/action_move_images"
+        android:icon="@drawable/ic_baseline_folder_24"
+        android:title="@string/move_images" />
+</menu>

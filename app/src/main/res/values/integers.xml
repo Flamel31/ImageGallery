@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Gallery -->
+    <integer name="gallery_cols">2</integer>
+    <!-- Album -->
+    <integer name="album_cols">3</integer>
+</resources>
