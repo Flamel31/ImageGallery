@@ -7,7 +7,7 @@ Repository for the final project of the course MOBILE DEVELOPMENT - 101805 (year
 
 ## Brief description and some screenshots
 <p align="justify">
-A gallery app which allows the user to take pictures from the camera and manage them in different albums. It is possible to view details regarding the images as well as performing operations on them: delete, share, move, rotate, etc... The app also provides a map that shows the location were the pictures were taken. Each album is represented as a folder inside the public external storage, since all these data should remain available even after uninstalling the app.
+A gallery app which allows the user to take pictures from the camera and manage them in different albums. It is possible to view details regarding the images as well as performing operations on them: delete, share, move, rotate, etc... The app also provides a map that shows the location where the pictures were taken. Each album is represented as a folder inside the public external storage, since all these data should remain available even after uninstalling the app.
 </p>
 
 <table>
